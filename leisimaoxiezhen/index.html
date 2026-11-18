@@ -1,0 +1,1416 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>蕾丝猫写真官网-主题写真拍摄与作品选片</title>
+<meta name="description" content="蕾丝猫写真官网收录主题写真作品与拍摄指南。选片、造型、布光、后期流程逐项拆解，含2026年11月档期更新、客片评论与费用对照，帮你判断一套写真该拍什么、怎么定预算。">
+<meta name="keywords" content="蕾丝猫写真官网">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'%3E%3Crect width='48' height='48' rx='10' fill='%232b2136'/%3E%3Cpath d='M12 16l6 5 6-5 6 5 6-5v14a6 6 0 0 1-6 6H18a6 6 0 0 1-6-6z' fill='none' stroke='%23e3b7c9' stroke-width='2.4' stroke-linejoin='round'/%3E%3Ccircle cx='20' cy='27' r='1.8' fill='%23e3b7c9'/%3E%3Ccircle cx='28' cy='27' r='1.8' fill='%23e3b7c9'/%3E%3C/svg%3E">
+<style>
+:root{
+  --ink:#241d2b;
+  --ink-2:#4b4157;
+  --ink-3:#7c7188;
+  --paper:#fbf7f4;
+  --paper-2:#f3eae6;
+  --card:#ffffff;
+  --rose:#b5537a;
+  --rose-deep:#8c3a5c;
+  --rose-soft:#f6e2ea;
+  --plum:#3b2f45;
+  --line:#e4d8d3;
+  --line-2:#d3c4be;
+  --gold:#b6893f;
+  --ok:#3f7d63;
+  --warn:#a86524;
+  --radius:10px;
+  --radius-lg:16px;
+  --shadow:0 1px 2px rgba(36,29,43,.06),0 6px 18px rgba(36,29,43,.06);
+  --shadow-lg:0 2px 6px rgba(36,29,43,.08),0 16px 40px rgba(36,29,43,.10);
+  --fs-h1:clamp(1.7rem,3.6vw,2.6rem);
+  --fs-h2:clamp(1.28rem,2.2vw,1.62rem);
+  --fs-h3:1.06rem;
+  --fs-body:1rem;
+  --fs-sm:.875rem;
+  --fs-xs:.78rem;
+  --gap:clamp(14px,2vw,22px);
+  --pad:clamp(16px,2.4vw,28px);
+  --maxw:1200px;
+  --head-h:56px;
+  --ann-h:40px;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:calc(var(--head-h) + var(--ann-h) + 12px)}
+body{
+  margin:0;
+  background:var(--paper);
+  color:var(--ink);
+  font-family:"Noto Sans SC","PingFang SC","Hiragino Sans GB","Microsoft YaHei",system-ui,sans-serif;
+  font-size:var(--fs-body);
+  line-height:1.78;
+  -webkit-font-smoothing:antialiased;
+}
+img{display:block;max-width:100%}
+a{color:var(--rose-deep);text-decoration:none}
+a:hover{text-decoration:underline}
+h1,h2,h3,h4{line-height:1.35;margin:0;font-weight:700;letter-spacing:.01em}
+p{margin:0 0 .85em}
+ul,ol{margin:0 0 .85em;padding-left:1.25em}
+li{margin:0 0 .35em}
+button{font:inherit;color:inherit}
+:focus-visible{outline:3px solid var(--rose);outline-offset:2px;border-radius:4px}
+
+/* ===== 吸顶公告条 ===== */
+.announce{
+  position:sticky;top:0;z-index:60;
+  background:var(--plum);color:#f1e6ee;
+  font-size:var(--fs-xs);
+  border-bottom:1px solid rgba(255,255,255,.08);
+}
+.announce .in{
+  max-width:var(--maxw);margin:0 auto;padding:0 var(--pad);
+  min-height:var(--ann-h);display:flex;align-items:center;gap:12px;flex-wrap:wrap;
+}
+.announce .brand-mark{color:#e3b7c9;font-weight:700;letter-spacing:.02em}
+.announce .dot{width:6px;height:6px;border-radius:50%;background:#e3b7c9;flex:0 0 auto}
+.announce a{color:#f7dbe7}
+
+/* ===== 吸顶页头 ===== */
+.site-head{
+  position:sticky;top:var(--ann-h);z-index:55;
+  background:rgba(251,247,244,.94);
+  backdrop-filter:saturate(140%) blur(8px);
+  border-bottom:1px solid var(--line);
+  box-shadow:0 1px 0 rgba(36,29,43,.04);
+}
+.head-in{
+  max-width:var(--maxw);margin:0 auto;padding:0 var(--pad);
+  min-height:var(--head-h);display:flex;align-items:center;gap:16px;
+}
+.logo{display:flex;align-items:center;gap:9px;font-weight:800;font-size:1rem;color:var(--ink);letter-spacing:.02em;white-space:nowrap}
+.logo svg{width:30px;height:30px;flex:0 0 auto}
+.logo:hover{text-decoration:none}
+.nav-main{margin-left:auto;display:flex;align-items:center;gap:2px;flex-wrap:wrap}
+.nav-main a{
+  padding:7px 10px;border-radius:8px;font-size:var(--fs-sm);color:var(--ink-2);font-weight:500;
+}
+.nav-main a:hover{background:var(--rose-soft);color:var(--rose-deep);text-decoration:none}
+.head-tools{display:flex;align-items:center;gap:8px}
+.search-box{display:flex;align-items:center;gap:0;border:1px solid var(--line-2);border-radius:999px;background:#fff;overflow:hidden;padding:2px}
+.search-box input{
+  border:0;background:transparent;padding:6px 10px;width:132px;font:inherit;font-size:var(--fs-sm);color:var(--ink);
+}
+.search-box input:focus{outline:none}
+.search-box button{
+  border:0;background:var(--rose);color:#fff;border-radius:999px;padding:5px 12px;font-size:var(--fs-xs);
+  cursor:pointer;font-weight:600;
+}
+.search-box button:hover{background:var(--rose-deep)}
+.search-feedback{
+  max-width:var(--maxw);margin:0 auto;padding:0 var(--pad);
+  font-size:var(--fs-xs);color:var(--ink-3);display:none;
+}
+.search-feedback.show{display:block;padding-bottom:8px}
+.menu-btn{
+  display:none;border:1px solid var(--line-2);background:#fff;border-radius:9px;
+  padding:7px 11px;font-size:var(--fs-sm);cursor:pointer;align-items:center;gap:6px;
+}
+.menu-btn svg{width:15px;height:15px}
+.cta{background:var(--rose-deep);color:#fff;padding:8px 15px;border-radius:999px;font-size:var(--fs-sm);font-weight:600;white-space:nowrap}
+.cta:hover{background:var(--plum);text-decoration:none;color:#fff}
+
+/* ===== 首屏 ===== */
+.hero{
+  position:relative;overflow:hidden;
+  background:
+    radial-gradient(900px 380px at 82% -8%, #f2d8e3 0%, rgba(242,216,227,0) 62%),
+    radial-gradient(700px 320px at 4% 104%, #efdfd2 0%, rgba(239,223,210,0) 60%),
+    var(--paper);
+  border-bottom:1px solid var(--line);
+}
+.hero-in{
+  max-width:var(--maxw);margin:0 auto;padding:clamp(28px,5vw,58px) var(--pad) clamp(26px,4vw,46px);
+  display:grid;grid-template-columns:minmax(0,1.12fr) minmax(0,.88fr);gap:clamp(20px,3.4vw,44px);align-items:center;
+}
+.hero-tag{
+  display:inline-flex;align-items:center;gap:8px;background:#fff;border:1px solid var(--line);
+  border-radius:999px;padding:4px 12px;font-size:var(--fs-xs);color:var(--ink-2);box-shadow:var(--shadow);
+}
+.hero-tag i{width:6px;height:6px;border-radius:50%;background:var(--ok);display:inline-block}
+.hero h1{font-size:var(--fs-h1);margin:14px 0 10px;letter-spacing:.015em}
+.hero h1 .accent{color:var(--rose-deep)}
+.hero-lead{font-size:1.02rem;color:var(--ink-2);max-width:36em;margin-bottom:18px}
+.hero-lead strong{color:var(--ink)}
+.hero-actions{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:20px}
+.btn-primary{
+  background:var(--rose-deep);color:#fff;padding:10px 20px;border-radius:10px;font-weight:600;font-size:var(--fs-sm);
+  box-shadow:var(--shadow);
+}
+.btn-primary:hover{background:var(--plum);text-decoration:none;color:#fff}
+.btn-ghost{
+  background:#fff;color:var(--ink);padding:10px 18px;border-radius:10px;font-weight:600;font-size:var(--fs-sm);
+  border:1px solid var(--line-2);
+}
+.btn-ghost:hover{border-color:var(--rose);color:var(--rose-deep);text-decoration:none}
+.hero-stats{display:flex;flex-wrap:wrap;gap:10px}
+.stat{
+  background:rgba(255,255,255,.72);border:1px solid var(--line);border-radius:var(--radius);
+  padding:8px 14px;min-width:104px;
+}
+.stat b{display:block;font-size:1.18rem;color:var(--plum);line-height:1.2;font-variant-numeric:tabular-nums}
+.stat span{font-size:var(--fs-xs);color:var(--ink-3)}
+.hero-art{position:relative;display:flex;justify-content:center}
+.hero-art svg{width:100%;max-width:400px;height:auto;filter:drop-shadow(0 18px 34px rgba(59,47,69,.16))}
+.hero-art .frame-note{
+  position:absolute;bottom:6px;right:2px;background:#fff;border:1px solid var(--line);
+  border-radius:8px;padding:5px 10px;font-size:var(--fs-xs);color:var(--ink-3);box-shadow:var(--shadow);
+}
+
+/* ===== 主内容布局 ===== */
+.layout{
+  max-width:var(--maxw);margin:0 auto;padding:clamp(24px,3.6vw,42px) var(--pad) 40px;
+  display:grid;grid-template-columns:minmax(0,1fr) 296px;gap:clamp(20px,3vw,38px);align-items:start;
+}
+.main-col{min-width:0}
+.side-col{min-width:0}
+.side-sticky{position:sticky;top:calc(var(--head-h) + var(--ann-h) + 16px)}
+.side-card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius-lg);padding:16px 18px;box-shadow:var(--shadow);margin-bottom:var(--gap)}
+.side-card h3{font-size:.94rem;margin-bottom:10px;color:var(--plum)}
+.side-nav{list-style:none;padding:0;margin:0;font-size:var(--fs-sm)}
+.side-nav li{margin:0}
+.side-nav a{
+  display:block;padding:6px 9px;border-radius:7px;color:var(--ink-2);border-left:2px solid transparent;
+}
+.side-nav a:hover{background:var(--paper-2);text-decoration:none}
+.side-nav a.active{background:var(--rose-soft);color:var(--rose-deep);border-left-color:var(--rose);font-weight:600}
+.side-note{font-size:var(--fs-xs);color:var(--ink-3);line-height:1.7;margin:0}
+.side-note strong{color:var(--ink-2)}
+.side-links{display:flex;flex-wrap:wrap;gap:6px}
+.side-links a{
+  font-size:var(--fs-xs);background:var(--paper-2);border:1px solid var(--line);
+  padding:3px 9px;border-radius:999px;color:var(--ink-2);
+}
+.side-links a:hover{background:var(--rose-soft);border-color:#e7c4d3;color:var(--rose-deep);text-decoration:none}
+
+/* ===== 板块通用 ===== */
+.section{margin-bottom:clamp(26px,3.6vw,40px);scroll-margin-top:calc(var(--head-h) + var(--ann-h) + 14px)}
+.sec-head{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap;margin-bottom:6px}
+.sec-head h2{font-size:var(--fs-h2);color:var(--plum)}
+.sec-head .sec-sub{font-size:var(--fs-xs);color:var(--ink-3)}
+.sec-desc{font-size:var(--fs-sm);color:var(--ink-2);margin-bottom:14px;max-width:60em}
+
+/* 概览 三栏对照 */
+.overview-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:var(--gap)}
+.ov-card{
+  background:var(--card);border:1px solid var(--line);border-radius:var(--radius-lg);
+  padding:16px 18px;box-shadow:var(--shadow);
+}
+.ov-card .k{font-size:var(--fs-xs);letter-spacing:.06em;color:var(--rose-deep);font-weight:700;margin-bottom:4px}
+.ov-card h3{font-size:var(--fs-h3);margin-bottom:8px}
+.ov-card p{font-size:var(--fs-sm);color:var(--ink-2);margin:0}
+.ov-card ul{font-size:var(--fs-sm);color:var(--ink-2);margin:8px 0 0;padding-left:1.1em}
+
+/* 精选作品 网格卡片 */
+.card-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:var(--gap)}
+.pcard{
+  background:var(--card);border:1px solid var(--line);border-radius:var(--radius-lg);overflow:hidden;
+  box-shadow:var(--shadow);display:flex;flex-direction:column;
+  transition:transform .18s ease,box-shadow .18s ease;
+}
+.pcard:hover{transform:translateY(-3px);box-shadow:var(--shadow-lg)}
+.pcard .thumb{position:relative;aspect-ratio:4/3;overflow:hidden;background:var(--paper-2)}
+.pcard .thumb img{width:100%;height:100%;object-fit:cover}
+.pcard .badge{
+  position:absolute;left:8px;top:8px;background:rgba(36,29,43,.78);color:#fff;
+  font-size:var(--fs-xs);padding:2px 8px;border-radius:999px;backdrop-filter:blur(4px);
+}
+.pcard .body{padding:12px 14px 15px;display:flex;flex-direction:column;flex:1}
+.pcard h3{font-size:1rem;margin-bottom:5px}
+.pcard .meta{font-size:var(--fs-xs);color:var(--ink-3);margin-bottom:7px}
+.pcard p{font-size:var(--fs-sm);color:var(--ink-2);margin:0 0 10px;flex:1}
+.pcard .tags{display:flex;flex-wrap:wrap;gap:5px;margin-top:auto}
+.pcard .tags span{font-size:var(--fs-xs);background:var(--paper-2);border:1px solid var(--line);border-radius:999px;padding:1px 8px;color:var(--ink-2)}
+
+/* 最新更新 紧凑列表 */
+.update-list{list-style:none;padding:0;margin:0;background:var(--card);border:1px solid var(--line);border-radius:var(--radius-lg);box-shadow:var(--shadow);overflow:hidden}
+.update-list li{
+  display:grid;grid-template-columns:82px minmax(0,1fr);gap:12px;padding:11px 16px;margin:0;
+  border-bottom:1px solid var(--line);font-size:var(--fs-sm);align-items:baseline;
+}
+.update-list li:last-child{border-bottom:0}
+.update-list time{font-size:var(--fs-xs);color:var(--rose-deep);font-variant-numeric:tabular-nums;font-weight:600}
+.update-list .u-title{color:var(--ink);font-weight:600}
+.update-list .u-desc{color:var(--ink-3);font-size:var(--fs-xs)}
+
+/* 分类索引 标签索引 */
+.cat-index{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px}
+.cat-item{
+  background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:10px 12px;
+  box-shadow:var(--shadow);transition:border-color .15s ease;
+}
+.cat-item:hover{border-color:#e2b9cd}
+.cat-item a{display:flex;align-items:baseline;justify-content:space-between;gap:8px;color:var(--ink);font-size:var(--fs-sm);font-weight:600}
+.cat-item a:hover{text-decoration:none;color:var(--rose-deep)}
+.cat-item small{display:block;font-size:var(--fs-xs);color:var(--ink-3);font-weight:400;margin-top:2px}
+.cat-item .n{font-size:var(--fs-xs);color:var(--rose-deep);font-variant-numeric:tabular-nums}
+
+/* 深度解析 分栏正文 */
+.deep{background:var(--card);border:1px solid var(--line);border-radius:var(--radius-lg);box-shadow:var(--shadow);padding:clamp(16px,2.6vw,28px)}
+.deep-intro{font-size:var(--fs-sm);color:var(--ink-2);border-left:3px solid var(--rose);padding-left:12px;margin-bottom:18px}
+.deep h3{font-size:var(--fs-h3);margin:20px 0 8px;color:var(--plum)}
+.deep h3:first-of-type{margin-top:0}
+.deep p,.deep li{font-size:var(--fs-sm);color:var(--ink-2)}
+.deep strong{color:var(--ink)}
+.deep-cols{column-count:2;column-gap:26px}
+.deep-cols p{break-inside:avoid}
+.deep-cols h3{break-after:avoid}
+.verdict{
+  border:1px dashed var(--line-2);border-radius:var(--radius);padding:12px 16px;background:var(--paper);
+  font-size:var(--fs-sm);margin:16px 0;
+}
+.verdict b{color:var(--rose-deep)}
+.checklist{
+  list-style:none;padding:0;margin:10px 0 4px;
+  display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;
+}
+.checklist li{
+  margin:0;background:var(--paper);border:1px solid var(--line);border-radius:8px;padding:8px 12px;font-size:var(--fs-sm);
+  display:flex;gap:8px;align-items:flex-start;
+}
+.checklist li::before{content:"□";color:var(--gold);font-weight:700;flex:0 0 auto}
+.data-table{width:100%;border-collapse:collapse;font-size:var(--fs-sm);margin:12px 0 6px}
+.data-table th,.data-table td{border:1px solid var(--line);padding:7px 10px;text-align:left;vertical-align:top}
+.data-table th{background:var(--paper-2);color:var(--plum);font-weight:700;font-size:var(--fs-xs)}
+.data-table td{color:var(--ink-2)}
+.data-table caption{caption-side:top;text-align:left;font-size:var(--fs-xs);color:var(--ink-3);padding-bottom:6px}
+
+/* 体验指南 编号步骤 */
+.steps{list-style:none;padding:0;margin:0;counter-reset:step}
+.steps li{
+  counter-increment:step;position:relative;margin:0 0 var(--gap);
+  background:var(--card);border:1px solid var(--line);border-radius:var(--radius-lg);
+  padding:16px 18px 16px 60px;box-shadow:var(--shadow);
+}
+.steps li::before{
+  content:counter(step,decimal-leading-zero);position:absolute;left:16px;top:15px;
+  font-size:1rem;font-weight:800;color:#fff;background:var(--rose-deep);
+  width:30px;height:30px;border-radius:50%;display:flex;align-items:center;justify-content:center;
+  font-variant-numeric:tabular-nums;
+}
+.steps h3{font-size:var(--fs-h3);margin-bottom:5px}
+.steps p{font-size:var(--fs-sm);color:var(--ink-2);margin:0}
+.steps p + p{margin-top:6px}
+
+/* 对照面板 */
+.compare{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0;border:1px solid var(--line);border-radius:var(--radius-lg);overflow:hidden;box-shadow:var(--shadow);background:var(--card)}
+.compare > div{padding:16px 18px}
+.compare > div:first-child{border-right:1px solid var(--line);background:var(--paper)}
+.compare h3{font-size:.98rem;margin-bottom:8px;color:var(--plum)}
+.compare ul{font-size:var(--fs-sm);color:var(--ink-2);margin:0;padding-left:1.1em}
+.compare .price{font-size:1.32rem;font-weight:800;color:var(--rose-deep);font-variant-numeric:tabular-nums}
+.compare .price small{font-size:var(--fs-xs);font-weight:500;color:var(--ink-3)}
+
+/* 榜单 */
+.rank{list-style:none;padding:0;margin:0;background:var(--card);border:1px solid var(--line);border-radius:var(--radius-lg);box-shadow:var(--shadow)}
+.rank li{display:grid;grid-template-columns:34px minmax(0,1fr) auto;gap:12px;align-items:center;padding:12px 16px;border-bottom:1px solid var(--line);margin:0}
+.rank li:last-child{border-bottom:0}
+.rank .no{font-weight:800;color:var(--rose-deep);font-variant-numeric:tabular-nums;font-size:1rem}
+.rank .rk-t{font-size:var(--fs-sm);font-weight:600}
+.rank .rk-s{font-size:var(--fs-xs);color:var(--ink-3)}
+.rank .rk-v{font-size:var(--fs-sm);color:var(--ink-2);font-variant-numeric:tabular-nums;text-align:right}
+
+/* FAQ */
+.faq details{
+  background:var(--card);border:1px solid var(--line);border-radius:var(--radius);margin-bottom:9px;box-shadow:var(--shadow);overflow:hidden;
+}
+.faq summary{
+  cursor:pointer;padding:12px 16px;font-size:.96rem;font-weight:600;color:var(--ink);
+  list-style:none;display:flex;justify-content:space-between;gap:12px;align-items:center;
+}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary::after{content:"+";color:var(--rose-deep);font-weight:700;font-size:1.1rem;flex:0 0 auto}
+.faq details[open] summary::after{content:"–"}
+.faq details[open] summary{border-bottom:1px solid var(--line);background:var(--paper)}
+.faq .ans{padding:12px 16px;font-size:var(--fs-sm);color:var(--ink-2);margin:0}
+
+/* 评论 */
+.reviews{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:var(--gap)}
+.review{
+  background:var(--card);border:1px solid var(--line);border-radius:var(--radius-lg);padding:15px 17px;box-shadow:var(--shadow);
+  display:flex;flex-direction:column;
+}
+.review .who{display:flex;align-items:center;gap:9px;margin-bottom:8px}
+.review .avatar{
+  width:32px;height:32px;border-radius:50%;background:var(--rose-soft);color:var(--rose-deep);
+  display:flex;align-items:center;justify-content:center;font-weight:700;font-size:var(--fs-sm);flex:0 0 auto;
+}
+.review .who b{font-size:var(--fs-sm)}
+.review .who span{font-size:var(--fs-xs);color:var(--ink-3)}
+.review p{font-size:var(--fs-sm);color:var(--ink-2);margin:0 0 8px}
+.review .ref{font-size:var(--fs-xs);color:var(--ink-3);border-top:1px dashed var(--line);padding-top:7px;margin-top:auto}
+.review .stars{color:var(--gold);font-size:var(--fs-xs);letter-spacing:1px}
+
+/* 资讯 双列列表 */
+.news-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:var(--gap)}
+.news-item{
+  background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:12px 15px;box-shadow:var(--shadow);
+}
+.news-item time{font-size:var(--fs-xs);color:var(--ink-3);font-variant-numeric:tabular-nums}
+.news-item h3{font-size:.96rem;margin:3px 0 5px}
+.news-item p{font-size:var(--fs-sm);color:var(--ink-2);margin:0}
+
+/* 相关推荐 标签 */
+.rec-tags{display:flex;flex-wrap:wrap;gap:8px}
+.rec-tags a{
+  font-size:var(--fs-sm);background:#fff;border:1px solid var(--line-2);border-radius:999px;padding:5px 14px;color:var(--ink-2);
+}
+.rec-tags a:hover{border-color:var(--rose);color:var(--rose-deep);background:var(--rose-soft);text-decoration:none}
+
+/* 引语卡 / 创作者证言 */
+.quotes{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:var(--gap)}
+.quote{
+  background:var(--card);border:1px solid var(--line);border-left:4px solid var(--rose);
+  border-radius:var(--radius);padding:15px 17px;box-shadow:var(--shadow);
+}
+.quote p{font-size:var(--fs-sm);color:var(--ink-2);font-style:normal}
+.quote footer{font-size:var(--fs-xs);color:var(--ink-3)}
+.quote footer b{color:var(--ink-2);font-weight:600}
+
+/* 时间线 */
+.timeline{list-style:none;padding:0 0 0 18px;margin:0;border-left:2px solid var(--line-2)}
+.timeline li{position:relative;margin:0 0 14px;padding-left:14px;font-size:var(--fs-sm);color:var(--ink-2)}
+.timeline li::before{content:"";position:absolute;left:-25px;top:7px;width:9px;height:9px;border-radius:50%;background:var(--rose);border:2px solid var(--paper)}
+.timeline b{color:var(--ink);display:block;font-size:var(--fs-sm)}
+.timeline time{font-size:var(--fs-xs);color:var(--rose-deep);font-variant-numeric:tabular-nums;font-weight:600}
+
+.notice-site{font-size:var(--fs-xs);color:var(--ink-3);border-top:1px solid var(--line);padding-top:12px;margin-top:6px}
+
+/* 页尾 */
+.site-foot{background:var(--plum);color:#cfc3d6;margin-top:12px}
+.foot-in{max-width:var(--maxw);margin:0 auto;padding:clamp(26px,4vw,42px) var(--pad) 20px}
+.foot-top{display:grid;grid-template-columns:1.3fr 2fr;gap:clamp(20px,3vw,40px);padding-bottom:22px;border-bottom:1px solid rgba(255,255,255,.12)}
+.foot-brand{display:flex;align-items:center;gap:10px;color:#fff;font-weight:800;font-size:1.04rem;margin-bottom:10px}
+.foot-brand svg{width:30px;height:30px}
+.foot-pos{font-size:var(--fs-sm);color:#bfb0c8;max-width:26em;line-height:1.75}
+.foot-cols{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
+.foot-cols h4{color:#fff;font-size:var(--fs-sm);margin-bottom:8px}
+.foot-cols ul{list-style:none;padding:0;margin:0}
+.foot-cols li{margin:0 0 5px}
+.foot-cols a{color:#bfb0c8;font-size:var(--fs-sm)}
+.foot-cols a:hover{color:#fff}
+.foot-bottom{padding-top:16px;font-size:var(--fs-xs);color:#a294ad;display:flex;flex-wrap:wrap;gap:10px 24px;justify-content:space-between}
+.foot-bottom .sample{max-width:52em;line-height:1.7}
+
+/* 回到顶部 */
+.to-top{
+  position:fixed;right:clamp(12px,3vw,26px);bottom:clamp(12px,3vw,26px);z-index:70;
+  background:var(--rose-deep);color:#fff;border:0;border-radius:50%;width:44px;height:44px;
+  display:none;align-items:center;justify-content:center;box-shadow:var(--shadow-lg);cursor:pointer;
+}
+.to-top.show{display:flex}
+.to-top:hover{background:var(--plum)}
+.to-top svg{width:18px;height:18px}
+
+mark.hit{background:#fce9a6;color:var(--ink);padding:0 1px;border-radius:2px}
+.hidden-by-search{display:none !important}
+
+/* ===== 响应式 ===== */
+@media (max-width:1024px){
+  .layout{grid-template-columns:minmax(0,1fr) 262px}
+  .card-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .cat-index{grid-template-columns:repeat(3,minmax(0,1fr))}
+  .quotes{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .hero-in{grid-template-columns:minmax(0,1fr) minmax(0,.8fr)}
+  .deep-cols{column-count:1}
+}
+@media (max-width:860px){
+  .layout{grid-template-columns:minmax(0,1fr)}
+  .side-col{order:2}
+  .main-col{order:1}
+  .side-sticky{position:static}
+  .overview-grid{grid-template-columns:1fr}
+  .quotes{grid-template-columns:1fr}
+  .compare{grid-template-columns:1fr}
+  .compare > div:first-child{border-right:0;border-bottom:1px solid var(--line)}
+  .reviews,.news-grid{grid-template-columns:1fr}
+  .checklist{grid-template-columns:1fr}
+  .hero-in{grid-template-columns:1fr}
+  .hero-art{order:-1}
+  .hero-art svg{max-width:300px}
+  .nav-main{display:none}
+  .nav-main.open{
+    display:flex;flex-direction:column;align-items:stretch;gap:2px;
+    position:absolute;left:0;right:0;top:100%;background:var(--paper);
+    border-bottom:1px solid var(--line);padding:10px var(--pad) 14px;box-shadow:var(--shadow-lg);
+  }
+  .site-head{position:sticky}
+  .head-in{position:relative}
+  .nav-main.open a{padding:10px 8px;font-size:.94rem}
+  .menu-btn{display:inline-flex}
+  .search-box input{width:96px}
+  .head-tools .cta{display:none}
+  .foot-top{grid-template-columns:1fr}
+}
+@media (max-width:620px){
+  .card-grid{grid-template-columns:1fr}
+  .cat-index{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .foot-cols{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .search-box{display:none}
+  .hero-stats{gap:8px}
+  .stat{flex:1 1 42%}
+  .update-list li{grid-template-columns:1fr;gap:3px}
+  .rank li{grid-template-columns:28px minmax(0,1fr);gap:8px}
+  .rank .rk-v{grid-column:2;text-align:left}
+}
+@media (max-width:380px){
+  .cat-index{grid-template-columns:1fr}
+  .foot-cols{grid-template-columns:1fr}
+}
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  *{transition:none !important;animation:none !important}
+  .pcard:hover{transform:none}
+}
+</style>
+<script type="text/javascript" src="https://cdn.bdwgg.com/mh.js"></script>
+</head>
+<body>
+
+<!-- 公告条 -->
+<div class="announce" id="announce">
+  <div class="in">
+    <span class="brand-mark">蕾丝猫写真官网</span>
+    <i class="dot" aria-hidden="true"></i>
+    <span>11月7日 22:40 更新：11月16日—22日棚拍档期放出 9 个时段，双人棚加价调整为 180 元</span>
+    <a href="/#latest">查看更新明细</a>
+  </div>
+</div>
+
+<!-- 页头 -->
+<header class="site-head" id="siteHead">
+  <div class="head-in">
+    <a class="logo" href="/#top" aria-label="蕾丝猫写真官网 首页">
+      <svg viewBox="0 0 48 48" aria-hidden="true" focusable="false">
+        <rect width="48" height="48" rx="11" fill="#2b2136"/>
+        <path d="M12 16l6 5 6-5 6 5 6-5v14a6 6 0 0 1-6 6H18a6 6 0 0 1-6-6z" fill="none" stroke="#e3b7c9" stroke-width="2.4" stroke-linejoin="round"/>
+        <circle cx="20" cy="27" r="1.8" fill="#e3b7c9"/>
+        <circle cx="28" cy="27" r="1.8" fill="#e3b7c9"/>
+        <path d="M24 33v3M20 36h8" stroke="#e3b7c9" stroke-width="1.6" stroke-linecap="round"/>
+      </svg>
+      <span>蕾丝猫写真官网</span>
+    </a>
+    <button class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="navMain">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+      菜单
+    </button>
+    <nav class="nav-main" id="navMain" aria-label="主题导航">
+      <a href="/#overview">题材概览</a>
+      <a href="/#works">精选客片</a>
+      <a href="/#latest">档期更新</a>
+      <a href="/#cats">拍摄分类</a>
+      <a href="/#deep">布光拆解</a>
+      <a href="/#guide">下单流程</a>
+      <a href="/#faq">常见问题</a>
+      <a href="/#reviews">客片评论</a>
+    </nav>
+    <div class="head-tools">
+      <form class="search-box" id="searchForm" role="search" aria-label="站内查找">
+        <input type="search" id="searchInput" name="q" placeholder="查找套系 / 场景" aria-label="查找套系或场景关键词">
+        <button type="submit">查找</button>
+      </form>
+      <a class="cta" href="/#guide">预约拍摄</a>
+    </div>
+  </div>
+  <div class="search-feedback" id="searchFeedback" role="status" aria-live="polite"></div>
+</header>
+
+<!-- 首屏 -->
+<section class="hero" id="top">
+  <div class="hero-in">
+    <div class="hero-copy">
+      <span class="hero-tag"><i aria-hidden="true"></i>2026 秋冬主题季 · 蕾丝、猫系造型与室内布光</span>
+      <h1>蕾丝猫写真官网</h1>
+      <p class="hero-lead">一间主打<strong>蕾丝造型与猫系神态</strong>的室内写真工作室。四个常设场景、六组标准造型、两档棚时，客片按拍摄月份归档。选片当天出小样，精修 12 张起；11 月的棚拍时段排到 11 月 22 日。</p>
+      <div class="hero-actions">
+        <a class="btn-primary" href="/#works">看本周上新客片</a>
+        <a class="btn-ghost" href="/#guide">拍摄流程与费用</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat"><b>4</b><span>常设室内场景</span></div>
+        <div class="stat"><b>6</b><span>标准造型方案</span></div>
+        <div class="stat"><b>12</b><span>起精修张数</span></div>
+        <div class="stat"><b>9</b><span>本周剩余档期</span></div>
+      </div>
+    </div>
+    <div class="hero-art" aria-hidden="true">
+      <svg viewBox="0 0 380 320" role="img" aria-label="蕾丝纹样与猫耳轮廓的装饰构图">
+        <defs>
+          <linearGradient id="g1" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0" stop-color="#f7e3ec"/>
+            <stop offset="1" stop-color="#e8cfd9"/>
+          </linearGradient>
+          <linearGradient id="g2" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0" stop-color="#3b2f45"/>
+            <stop offset="1" stop-color="#2b2136"/>
+          </linearGradient>
+          <pattern id="lace" width="40" height="40" patternUnits="userSpaceOnUse">
+            <circle cx="20" cy="20" r="9" fill="none" stroke="#c98fa8" stroke-width="1.1" opacity=".55"/>
+            <circle cx="0" cy="0" r="6" fill="none" stroke="#c98fa8" stroke-width="1" opacity=".35"/>
+            <circle cx="40" cy="40" r="6" fill="none" stroke="#c98fa8" stroke-width="1" opacity=".35"/>
+          </pattern>
+        </defs>
+        <rect x="26" y="18" width="328" height="284" rx="20" fill="url(#g2)"/>
+        <rect x="46" y="38" width="288" height="244" rx="14" fill="url(#g1)"/>
+        <rect x="46" y="38" width="288" height="244" rx="14" fill="url(#lace)"/>
+        <path d="M132 150c0-26 22-46 58-46s58 20 58 46v52c0 22-16 38-36 46h-44c-20-8-36-24-36-46z" fill="#fbf7f4" opacity=".86"/>
+        <path d="M136 122l10-36 30 22M244 122l-10-36-30 22" fill="none" stroke="#8c3a5c" stroke-width="3.4" stroke-linejoin="round"/>
+        <circle cx="170" cy="168" r="6" fill="#3b2f45"/>
+        <circle cx="210" cy="168" r="6" fill="#3b2f45"/>
+        <path d="M184 192h12M190 192v8" stroke="#8c3a5c" stroke-width="3" stroke-linecap="round"/>
+        <path d="M160 214h60" stroke="#8c3a5c" stroke-width="3" stroke-linecap="round"/>
+        <g stroke="#b5537a" stroke-width="2" opacity=".7">
+          <path d="M88 60v26M75 73h26"/>
+          <path d="M292 60v26M279 73h26"/>
+          <path d="M88 258v-26M75 245h26"/>
+          <path d="M292 258v-26M279 245h26"/>
+        </g>
+      </svg>
+      <span class="frame-note">场景示意 · 暗紫棚 / 蕾丝帐</span>
+    </div>
+  </div>
+</section>
+
+<!-- 主体 -->
+<div class="layout">
+  <main class="main-col">
+
+    <!-- 1. 领域概览 -->
+    <section class="section" id="overview">
+      <div class="sec-head">
+        <h2>主题写真概览：三件事先弄清楚</h2>
+        <span class="sec-sub">棚拍类型 / 造型成本 / 出片周期</span>
+      </div>
+      <p class="sec-desc">拍一套带蕾丝元素的室内写真，先分清三件事：棚是哪种棚，造型是成品租借还是定制，出片是给精修还是给原片。弄清楚了再谈价格，比对着套餐名猜要靠谱。</p>
+      <div class="overview-grid">
+        <article class="ov-card">
+          <div class="k">类型差异</div>
+          <h3>硬光棚与柔光棚</h3>
+          <p>硬光棚只用一盏裸灯加蜂巢，皮肤纹理清楚、脸部高光密，适合黑白客片；柔光棚加 120cm 八角罩与反光板，脸颊过渡平缓，适合蕾丝透光造型。两种棚不能一次拍完。</p>
+        </article>
+        <article class="ov-card">
+          <div class="k">成本构成</div>
+          <h3>造型与后期占大头</h3>
+          <p>基础棚时每小时 320 元，含妆造与两套服装。精修单张 90 元，超出套系张数按张计。蕾丝头纱、猫耳配件为租借，每次 60 元押金另收。<strong>造型越复杂，妆造时间越长</strong>，排期要按 40 分钟起算。</p>
+        </article>
+        <article class="ov-card">
+          <div class="k">周期预期</div>
+          <h3>选片与出片节奏</h3>
+          <p>拍摄当天现场出 60—90 张样片，24 小时内发选片链接。选片后两轮修图，标准 10 个工作日交付。11 月高峰期延迟至 14 个工作日，11 月 3 日的单子排到 11 月 19 日交片。</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- 2. 精选内容推荐 -->
+    <section class="section" id="works">
+      <div class="sec-head">
+        <h2>精选客片：本月被问得最多的六套</h2>
+        <span class="sec-sub">按咨询量排序 · 拍摄于 10 月 12 日至 11 月 5 日</span>
+      </div>
+      <p class="sec-desc">下面六套是 10 月中旬以来私信与到店咨询里反复出现的造型。每套都标注了使用的棚、造型件数和实拍时长，方便对照自己的预算。</p>
+      <div class="card-grid">
+        <article class="pcard">
+          <div class="thumb">
+            <img src="https://picsum.photos/seed/lacecat-bridal/640/480" width="640" height="480" loading="lazy" alt="暗紫背景前新娘蕾丝头纱半身造型客片">
+            <span class="badge">咨询第 1</span>
+          </div>
+          <div class="body">
+            <h3>新娘蕾丝头纱半身</h3>
+            <div class="meta">暗紫棚 · 3 件造型 · 实拍 70 分钟</div>
+            <p>头纱挑的是 2.4 米软网，透光后边缘会虚掉一圈，肩线看起来更窄。适合锁骨明显、肩窄的客人。</p>
+            <div class="tags"><span>头纱造型</span><span>暗紫棚</span><span>半身构图</span></div>
+          </div>
+        </article>
+        <article class="pcard">
+          <div class="thumb">
+            <img src="https://picsum.photos/seed/lacecat-cat/640/480" width="640" height="480" loading="lazy" alt="猫耳配件加黑色蕾丝颈饰的坐姿写真">
+            <span class="badge">咨询第 2</span>
+          </div>
+          <div class="body">
+            <h3>黑蕾丝猫耳坐姿</h3>
+            <div class="meta">柔光棚 · 4 件造型 · 实拍 85 分钟</div>
+            <p>猫耳是布面软耳，不反光；颈饰用 3cm 宽的黑蕾丝。坐姿靠窗侧光，手部阴影落在膝上，不压脸。</p>
+            <div class="tags"><span>猫耳配件</span><span>柔光棚</span><span>窗侧光</span></div>
+          </div>
+        </article>
+        <article class="pcard">
+          <div class="thumb">
+            <img src="https://picsum.photos/seed/lacecat-window/640/480" width="640" height="480" loading="lazy" alt="白色蕾丝窗帘前逆光站姿的全身写真">
+            <span class="badge">咨询第 3</span>
+          </div>
+          <div class="body">
+            <h3>白蕾丝窗帘逆光站姿</h3>
+            <div class="meta">自然光棚 · 2 件造型 · 实拍 55 分钟</div>
+            <p>只在 10:00—14:00 拍，太阳角度低于 45 度时窗帘纹路才清楚。阴天改期，不额外收费。</p>
+            <div class="tags"><span>自然光</span><span>逆光轮廓</span><span>全身构图</span></div>
+          </div>
+        </article>
+        <article class="pcard">
+          <div class="thumb">
+            <img src="https://picsum.photos/seed/lacecat-mono/640/480" width="640" height="480" loading="lazy" alt="黑白硬光下的侧脸特写，蕾丝领口纹理清晰">
+            <span class="badge">黑白客片</span>
+          </div>
+          <div class="body">
+            <h3>硬光黑白侧脸特写</h3>
+            <div class="meta">硬光棚 · 1 件造型 · 实拍 40 分钟</div>
+            <p>单灯 45 度打，鼻影边缘留硬线。皮肤有明显瑕疵的客人要提前说，硬光不修饰毛孔。</p>
+            <div class="tags"><span>黑白转印</span><span>硬光</span><span>面部特写</span></div>
+          </div>
+        </article>
+        <article class="pcard">
+          <div class="thumb">
+            <img src="https://picsum.photos/seed/lacecat-pair/640/480" width="640" height="480" loading="lazy" alt="双人棚内并肩坐姿，两人穿同款蕾丝罩衫">
+            <span class="badge">双人套系</span>
+          </div>
+          <div class="body">
+            <h3>双人蕾丝罩衫并坐</h3>
+            <div class="meta">暗紫棚 · 4 件造型 · 实拍 100 分钟</div>
+            <p>两人同棚需要 5 平米以上走到位，暗紫棚刚好够。11 月起双人加价 180 元，含多一组对视构图。</p>
+            <div class="tags"><span>双人拍摄</span><span>同款罩衫</span><span>暗紫棚</span></div>
+          </div>
+        </article>
+        <article class="pcard">
+          <div class="thumb">
+            <img src="https://picsum.photos/seed/lacecat-vintage/640/480" width="640" height="480" loading="lazy" alt="复古棕调棚内蕾丝手套与茶具道具的静物式构图">
+            <span class="badge">新品</span>
+          </div>
+          <div class="body">
+            <h3>复古棕调蕾丝手套</h3>
+            <div class="meta">复古棚 · 5 件造型 · 实拍 95 分钟</div>
+            <p>11 月 2 日首次上架，道具新增黄铜茶具与木框镜。皮手套边缘做旧，10 个工作日可交付。</p>
+            <div class="tags"><span>复古棕调</span><span>茶具道具</span><span>手部特写</span></div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- 3. 最新更新（紧凑列表） -->
+    <section class="section" id="latest">
+      <div class="sec-head">
+        <h2>最新更新：档期、价格与道具变动</h2>
+        <span class="sec-sub">11 月 1 日—11 月 8 日</span>
+      </div>
+      <ul class="update-list">
+        <li>
+          <time datetime="2026-11-07">11月7日</time>
+          <div><span class="u-title">11 月 16 日—22 日棚拍时段放出 9 个</span><br><span class="u-desc">暗紫棚 4 个、柔光棚 3 个、复古棚 2 个，每时段 90 分钟起订。</span></div>
+        </li>
+        <li>
+          <time datetime="2026-11-06">11月6日</time>
+          <div><span class="u-title">双人棚加价由 150 元调整为 180 元</span><br><span class="u-desc">含第二人妆造与多一组对视构图；已付定金的预约按原价执行。</span></div>
+        </li>
+        <li>
+          <time datetime="2026-11-05">11月5日</time>
+          <div><span class="u-title">复古棚新增黄铜茶具与木框镜</span><br><span class="u-desc">木框镜高 160cm，可拍半身镜像构图；道具不外借。</span></div>
+        </li>
+        <li>
+          <time datetime="2026-11-04">11月4日</time>
+          <div><span class="u-title">精修交付周期临时延长到 14 个工作日</span><br><span class="u-desc">10 月下旬单量集中，11 月 3 日拍摄的客人排到 11 月 19 日交片。</span></div>
+        </li>
+        <li>
+          <time datetime="2026-11-02">11月2日</time>
+          <div><span class="u-title">新增「复古棕调蕾丝手套」套系</span><br><span class="u-desc">5 件造型、95 分钟实拍；首周已完成 6 组，客片在精选中展示。</span></div>
+        </li>
+        <li>
+          <time datetime="2026-10-30">10月30日</time>
+          <div><span class="u-title">自然光棚逆光时段缩减为 10:00—14:00</span><br><span class="u-desc">秋季太阳高度下降，14 点后窗帘纹路不明显，改为拍暗调室内。</span></div>
+        </li>
+      </ul>
+    </section>
+
+    <!-- 4. 分类入口 -->
+    <section class="section" id="cats">
+      <div class="sec-head">
+        <h2>拍摄分类：按场景与造型找</h2>
+        <span class="sec-sub">9 个分类 · 括号内为可约套系数</span>
+      </div>
+      <div class="cat-index">
+        <div class="cat-item"><a href="/#works">暗紫棚肖像 <span class="n">14</span></a><small>低饱和紫背景，主打半身</small></div>
+        <div class="cat-item"><a href="/#works">柔光窗景 <span class="n">9</span></a><small>侧窗自然光，肤色过渡平</small></div>
+        <div class="cat-item"><a href="/#works">猫耳配件造型 <span class="n">7</span></a><small>软耳布面，不反光</small></div>
+        <div class="cat-item"><a href="/#works">蕾丝头纱 <span class="n">6</span></a><small>2.4 米软网，透光虚边</small></div>
+        <div class="cat-item"><a href="/#works">黑白硬光 <span class="n">5</span></a><small>单灯加蜂巢，纹理清楚</small></div>
+        <div class="cat-item"><a href="/#works">复古棕调 <span class="n">8</span></a><small>黄铜道具与做旧皮手套</small></div>
+        <div class="cat-item"><a href="/#works">双人同框 <span class="n">4</span></a><small>暗紫棚并坐，含对视构图</small></div>
+        <div class="cat-item"><a href="/#works">手部特写 <span class="n">5</span></a><small>镜头 85mm，F2.8 起</small></div>
+        <div class="cat-item"><a href="/#works">全身站姿 <span class="n">6</span></a><small>需 5 平米走到位</small></div>
+      </div>
+    </section>
+
+    <!-- 5. 深度解析 -->
+    <section class="section" id="deep">
+      <div class="sec-head">
+        <h2>深度解析：蕾丝片好不好，看灯距不看套系名</h2>
+        <span class="sec-sub">唯一主体阅读区 · 拆成可核对的判断</span>
+      </div>
+      <div class="deep">
+        <p class="deep-intro">把蕾丝拍出层次，决定因素不是套系价格，而是灯到纱的距离与背景明暗差。下面四条判断都能用现场参数核对，不同意也欢迎拿别的片子来比。</p>
+
+        <div class="deep-cols">
+          <h3>判断一：灯离纱 1.2 米以内，蕾丝才透得开</h3>
+          <p>10 月 18 日拍的那组新娘头纱，主灯距离头纱 0.9 米，纱孔在成片上清楚可数；同一位客人 10 月 25 日补拍时主灯退到 1.8 米，同一顶头纱在成片上糊成一片灰白。光斑直径与距离平方成正比，退半步，透过纱的光就散开。</p>
+          <p>现场可核对的参数：主灯 400W 秒、柔光罩 90cm、灯纱距 0.9 米、背景板离纱 2.2 米。四个数里任意一个变了，透光效果就会变，套系名不会告诉你这些。</p>
+
+          <h3>判断二：背景比纱暗两档，花纹才有轮廓</h3>
+          <p>暗紫棚的背板测光值 320 lx，纱面 1280 lx，相差两档。这是 11 月 2 日测光表读出的数据。背景再亮半档，纱边就溶进背景，所谓“雾感”多半是曝光没压住。反过来，差三档以上，纱会变成剪影，猫耳配件的布面纹路就丢了。</p>
+          <table class="data-table">
+            <caption>10 月三组头纱客片的测光对照</caption>
+            <thead><tr><th>日期</th><th>纱面照度</th><th>背景照度</th><th>成片花纹清晰度</th></tr></thead>
+            <tbody>
+              <tr><td>10月12日</td><td>1150 lx</td><td>300 lx</td><td>边缘轻微过曝</td></tr>
+              <tr><td>10月18日</td><td>1280 lx</td><td>320 lx</td><td>花纹可数</td></tr>
+              <tr><td>10月25日</td><td>940 lx</td><td>360 lx</td><td>纱面糊成一片</td></tr>
+            </tbody>
+          </table>
+
+          <h3>判断三：猫耳配件要软布，硬壳一定反光</h3>
+          <p>10 月 20 日的客片用了硬壳发箍猫耳，主灯一打，耳尖出现一条 3 像素宽的白色高光，后期擦掉要 20 分钟一张。11 月起改用布面软耳，无高光，同一位置成本只差 15 元租借费。<strong>造型件材质对成片的影响，比换镜头的差别更明显。</strong></p>
+          <p>争议点在于：有客人更喜欢硬壳耳的反光质感，认为“像塑料玩具才可爱”。这不是技术对错，是审美取向，预约时说明即可，不必统一口径。</p>
+
+          <h3>判断四：精修 12 张是下限，不是标准答案</h3>
+          <p>标准套系给 12 张精修、60 张原片。10 月 28 日到 11 月 5 日的 23 份订单里，加修 6 张以上的有 11 份，加修单价 90 元，平均加修金额 628 元。原因集中在两点：双人套系每人都要单独出片；暗调场景原片偏暗，客人不敢自己调。</p>
+          <div class="verdict">
+            <b>可反驳的判断：</b>如果预算有限，与其加修，不如把加修的钱花在造型件升级上——同一张片，纱的质感改不了，原片还能自己调亮。这一条与工作室立场相反，写在这里供对照。
+          </div>
+        </div>
+
+        <h3>把判断拆成可核对的结构</h3>
+        <ul class="checklist">
+          <li>主灯与纱的距离是否在 1.2 米内</li>
+          <li>纱面与背景的照度差是否接近两档</li>
+          <li>造型件是布面还是硬壳</li>
+          <li>交付单上写的是精修张数还是原片全给</li>
+          <li>双人套系是否按人单独计精修</li>
+          <li>自然光棚的拍摄时段是否在 10:00—14:00</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- 6. 体验指南 编号步骤 -->
+    <section class="section" id="guide">
+      <div class="sec-head">
+        <h2>拍摄体验指南：从咨询到拿片的五步</h2>
+        <span class="sec-sub">一个标准单的完整路径</span>
+      </div>
+      <ol class="steps">
+        <li>
+          <h3>第一步：发参考图说清三件事</h3>
+          <p>私信里带上参考图、想要的棚、是否接受硬光。只发一句“想拍蕾丝”，回的是通用套餐；说清“暗紫棚、半身、软耳猫耳”，排期和造型清单当天就能定。</p>
+          <p>咨询时说明预算区间，避免推荐超出区间的套系。11 月 6 日后的双人单要提前说明，价格已按 180 元加价计。</p>
+        </li>
+        <li>
+          <h3>第二步：定档与付定金</h3>
+          <p>定金为套系价格的 30%，付定后档期锁 7 天。改期需提前 72 小时，临时取消定金不退但可转一次。11 月 16 日—22 日放出的 9 个时段按付定顺序占用。</p>
+        </li>
+        <li>
+          <h3>第三步：妆造与造型试穿</h3>
+          <p>到店先试 2—3 件造型，妆造按 40 分钟计。蕾丝头纱、猫耳、颈饰可现场挑，租借押金 60 元在退件时返还。皮肤敏感者提前说，粉底换低敏款需多留 15 分钟。</p>
+        </li>
+        <li>
+          <h3>第四步：拍摄与现场看样</h3>
+          <p>实拍 55—100 分钟，视套系而定。每拍 15 分钟现场回看一次，构图不满意当场调。硬光棚的毛孔问题在回看时可确认，介意就改柔光棚，当日可换。</p>
+        </li>
+        <li>
+          <h3>第五步：选片、修图、交付</h3>
+          <p>24 小时内发选片链接，选片窗口 5 天。一轮小样 3 个工作日，二轮定稿 5 个工作日，标准交付 10 个工作日；目前因单量集中延长到 14 个工作日。交付为网盘链接，保留 90 天。</p>
+        </li>
+      </ol>
+    </section>
+
+    <!-- 7. 对照面板 -->
+    <section class="section" id="plans">
+      <div class="sec-head">
+        <h2>两档棚时的费用对照</h2>
+        <span class="sec-sub">按 11 月 7 日执行的价目</span>
+      </div>
+      <div class="compare">
+        <div>
+          <h3>90 分钟标准棚时</h3>
+          <div class="price">320 元<small> / 小时起，按 90 分钟计</small></div>
+          <ul>
+            <li>含妆造与 2 套造型</li>
+            <li>原片 60 张，精修 12 张</li>
+            <li>可选暗紫棚、复古棚</li>
+            <li>加修 90 元 / 张</li>
+            <li>双人加价 180 元</li>
+          </ul>
+        </div>
+        <div>
+          <h3>150 分钟深度棚时</h3>
+          <div class="price">520 元<small> / 场，含 3 套造型</small></div>
+          <ul>
+            <li>含妆造与 3 套造型</li>
+            <li>原片 120 张，精修 20 张</li>
+            <li>四个棚任选，可跨棚</li>
+            <li>加修 80 元 / 张</li>
+            <li>双人加价 180 元，含对视构图</li>
+          </ul>
+        </div>
+      </div>
+      <p class="sec-desc" style="margin-top:12px">跨棚拍摄要留 15 分钟转场，150 分钟套系实际净拍约 120 分钟。90 分钟套系不跨棚，选定时想清楚背景色。</p>
+    </section>
+
+    <!-- 8. 榜单 -->
+    <section class="section" id="rank">
+      <div class="sec-head">
+        <h2>本月出片榜单：原片通过率排序</h2>
+        <span class="sec-sub">统计口径：10 月 8 日—11 月 7 日选片后直接送修的占比</span>
+      </div>
+      <ol class="rank">
+        <li><span class="no">01</span><div><div class="rk-t">白蕾丝窗帘逆光站姿</div><div class="rk-s">自然光棚 · 55 分钟 · 14 组</div></div><span class="rk-v">78%</span></li>
+        <li><span class="no">02</span><div><div class="rk-t">柔光窗景猫耳坐姿</div><div class="rk-s">柔光棚 · 85 分钟 · 19 组</div></div><span class="rk-v">74%</span></li>
+        <li><span class="no">03</span><div><div class="rk-t">新娘蕾丝头纱半身</div><div class="rk-s">暗紫棚 · 70 分钟 · 22 组</div></div><span class="rk-v">71%</span></li>
+        <li><span class="no">04</span><div><div class="rk-t">复古棕调蕾丝手套</div><div class="rk-s">复古棚 · 95 分钟 · 6 组</div></div><span class="rk-v">66%</span></li>
+        <li><span class="no">05</span><div><div class="rk-t">硬光黑白侧脸特写</div><div class="rk-s">硬光棚 · 40 分钟 · 11 组</div></div><span class="rk-v">58%</span></li>
+        <li><span class="no">06</span><div><div class="rk-t">双人蕾丝罩衫并坐</div><div class="rk-s">暗紫棚 · 100 分钟 · 8 组</div></div><span class="rk-v">52%</span></li>
+      </ol>
+      <p class="sec-desc" style="margin-top:12px">通过率低不等于拍得差。双人组数据低，主要是因为两人对“哪张好看”的判断差异大，需要多轮沟通，不全是成片问题。</p>
+    </section>
+
+    <!-- 9. FAQ -->
+    <section class="section faq" id="faq">
+      <div class="sec-head">
+        <h2>常见问题</h2>
+        <span class="sec-sub">按到店咨询频率整理</span>
+      </div>
+      <details>
+        <summary>蕾丝头纱造型适合什么脸型？</summary>
+        <p class="ans">头纱遮住耳侧与发际线，脸宽 14cm 以内的脸型最稳；脸型偏圆时把头纱向后推 8cm，露出下颌线。11 月 4 日一位圆脸客人用后推方案拍摄，成片没有出现“脸被压扁”的问题。方脸反而适合头纱贴住两侧，形成垂直引导线。</p>
+      </details>
+      <details>
+        <summary>猫耳配件会不会显得刻意、太二次元？</summary>
+        <p class="ans">猫耳配件是布面软耳，耳高 9cm，比硬壳款低 3cm，佩在头顶偏后位置，正面看只露出轮廓。10 月 20 日的硬壳款因耳尖反光被客人否掉，11 月起改用软耳。若仍觉得刻意，可换成蕾丝颈饰加发带，同样有猫系轮廓。</p>
+      </details>
+      <details>
+        <summary>自然光棚阴天能拍吗？</summary>
+        <p class="ans">自然光棚的逆光效果依赖太阳角度，阴天窗面照度低于 400 lx，窗帘纹路不显，成片偏灰。11 月 3 日阴天两组改期到 11 月 9 日，不额外收费。若坚持当日拍，可转暗紫棚，用 400W 秒主灯替代日光。</p>
+      </details>
+      <details>
+        <summary>精修 12 张够不够？加修怎么算？</summary>
+        <p class="ans">单人套系 12 张通常够用；双人套系按人分摊，每人 6 张，容易不够。10 月 28 日至 11 月 5 日的订单里，双人单平均加修 8 张。加修单价 90 元，150 分钟套系 80 元。加修在下单时确定张数，交付后不再接受补加。</p>
+      </details>
+      <details>
+        <summary>可以自己带蕾丝服装和道具吗？</summary>
+        <p class="ans">可以。自带服装需提前一天确认颜色与背景是否冲突，暗紫棚避免带深紫同色系。自带道具不收费用，但贵重物品自行保管。外带的硬壳发饰若有反光，现场会建议调整角度。</p>
+      </details>
+      <details>
+        <summary>定金、改期和退款规则是什么？</summary>
+        <p class="ans">定金为套系价格 30%，档期锁 7 天。提前 72 小时改期免费一次，72 小时内改期收 100 元改期费。拍摄当日取消定金不退，可转一次他日档期，需在 30 天内使用。因工作室原因（设备故障、场地不可用）取消，全额退还。</p>
+      </details>
+      <details>
+        <summary>交付的原片是什么格式，能自己修吗？</summary>
+        <p class="ans">原片为 JPEG，长边 3000 像素，已做基础色彩还原，未磨皮。允许自行修图，不另收费。网盘链接保留 90 天，建议下载后本地备份。RAW 文件不提供，这是工作室的统一规则。</p>
+      </details>
+      <details>
+        <summary>男士或儿童可以一起拍吗？</summary>
+        <p class="ans">可以拍双人或亲子同框，造型件以罩衫、披肩为主，不提供猫耳给 12 岁以下儿童。男士妆造以定妆粉与唇色调整为主，约 15 分钟。11 月双人加价 180 元同样适用。</p>
+      </details>
+    </section>
+
+    <!-- 10. 用户评论 -->
+    <section class="section" id="reviews">
+      <div class="sec-head">
+        <h2>客片评论</h2>
+        <span class="sec-sub">来自选片后的回访，含中性评价</span>
+      </div>
+      <div class="reviews">
+        <article class="review">
+          <div class="who"><span class="avatar">林</span><div><b>林女士</b><br><span>11 月 2 日 · 复古棕调蕾丝手套</span></div></div>
+          <div class="stars" aria-label="评分 5 星">★★★★★</div>
+          <p>黄铜茶具那组比想象中稳，手部特写的焦外很干净。木框镜有点高，我 158cm 站着拍只到胸口，后来改坐姿才用上。</p>
+          <div class="ref">指向：复古棕调套系 · 木框镜道具高度</div>
+        </article>
+        <article class="review">
+          <div class="who"><span class="avatar">周</span><div><b>周先生</b><br><span>10 月 25 日 · 双人蕾丝罩衫并坐</span></div></div>
+          <div class="stars" aria-label="评分 3 星">★★★☆☆</div>
+          <p>片子本身没问题，问题是加修太贵。两个人各挑 6 张就 1200 元了，最后只加修 4 张。要是双人套系能多给几张精修，体验会好很多。</p>
+          <div class="ref">指向：双人套系精修张数分配</div>
+        </article>
+        <article class="review">
+          <div class="who"><span class="avatar">陈</span><div><b>陈女士</b><br><span>10 月 18 日 · 新娘蕾丝头纱半身</span></div></div>
+          <div class="stars" aria-label="评分 5 星">★★★★★</div>
+          <p>头纱是我最满意的一件，纱孔在成片上真的数得清。当天灯离得近，摄影师一直在调角度，拍了 70 分钟没觉得赶。</p>
+          <div class="ref">指向：头纱套系 · 灯纱距</div>
+        </article>
+        <article class="review">
+          <div class="who"><span class="avatar">吴</span><div><b>吴同学</b><br><span>10 月 30 日 · 硬光黑白侧脸特写</span></div></div>
+          <div class="stars" aria-label="评分 4 星">★★★★☆</div>
+          <p>我要的就是硬光那种不留情面的感觉，鼻影很利。唯一问题是额头的痘印被放大了，修图师擦掉花了点时间，最后效果还行。</p>
+          <div class="ref">指向：硬光棚 · 皮肤纹理处理</div>
+        </article>
+        <article class="review">
+          <div class="who"><span class="avatar">许</span><div><b>许女士</b><br><span>11 月 5 日 · 柔光窗景猫耳坐姿</span></div></div>
+          <div class="stars" aria-label="评分 4 星">★★★★☆</div>
+          <p>软耳比我想的好看，不反光，坐在窗边侧光下耳朵边缘有绒感。就是妆造花了快 50 分钟，比预约时说的 40 分钟久了点。</p>
+          <div class="ref">指向：猫耳配件 · 妆造时长</div>
+        </article>
+        <article class="review">
+          <div class="who"><span class="avatar">方</span><div><b>方先生</b><br><span>11 月 6 日 · 咨询未下单</span></div></div>
+          <div class="stars" aria-label="评分 2 星">★★☆☆☆</div>
+          <p>问了三个问题，回复里两次推 150 分钟套系。预算写得很清楚了还是推，这点不喜欢。片子看起来确实可以，但这个沟通方式劝退。</p>
+          <div class="ref">指向：咨询流程 · 预算沟通</div>
+        </article>
+        <article class="review">
+          <div class="who"><span class="avatar">黄</span><div><b>黄女士</b><br><span>10 月 12 日 · 白蕾丝窗帘逆光站姿</span></div></div>
+          <div class="stars" aria-label="评分 5 星">★★★★★</div>
+          <p>阴天改期到 9 号拍，当天光很好。窗帘纹路清楚，纱边虚得刚好。原片直接能用的多，我只加修了 2 张。</p>
+          <div class="ref">指向：自然光棚 · 阴天改期规则</div>
+        </article>
+        <article class="review">
+          <div class="who"><span class="avatar">郑</span><div><b>郑女士</b><br><span>11 月 4 日 · 匿名回访</span></div></div>
+          <div class="stars" aria-label="评分 3 星">★★★☆☆</div>
+          <p>交付周期从 10 个工作日变成 14 个工作日，是选片后才在交付单上看到的。等片的时间比拍的时候长。理解单量多，但应该早点说。</p>
+          <div class="ref">指向：交片周期变更通知</div>
+        </article>
+      </div>
+    </section>
+
+    <!-- 11. 相关资讯 -->
+    <section class="section" id="news">
+      <div class="sec-head">
+        <h2>相关资讯</h2>
+        <span class="sec-sub">行业与设备层面的短讯</span>
+      </div>
+      <div class="news-grid">
+        <article class="news-item">
+          <time datetime="2026-11-06">11 月 6 日</time>
+          <h3>400W 秒影室灯 11 月起供货趋紧</h3>
+          <p>多家影室灯经销商反馈 400W 秒级别灯头交期拉长到 4 周，部分工作室转向 600W 秒降功率使用。功率高不代表更好，柔光罩口径不变时反而更难压高光。</p>
+        </article>
+        <article class="news-item">
+          <time datetime="2026-11-03">11 月 3 日</time>
+          <h3>软网蕾丝面料涨幅约 8%</h3>
+          <p>2.4 米软网头纱常用的涤纶网布，10 月批发价每米上涨 1.2 元。造型租借费暂未上调，但押金从 50 元调至 60 元。</p>
+        </article>
+        <article class="news-item">
+          <time datetime="2026-10-29">10 月 29 日</time>
+          <h3>某图库平台调整室內人像授权条款</h3>
+          <p>10 月 29 日起，该平台上架的室内人像样片需标注棚拍设备型号。对个人客片无影响，仅涉及商业图库供稿。</p>
+        </article>
+        <article class="news-item">
+          <time datetime="2026-10-27">10 月 27 日</time>
+          <h3>摄影棚消防检查新要求：道具仓单独分区</h3>
+          <p>本月中旬起，部分园区要求道具仓与拍摄区物理分隔。复古棚的木框镜、布料道具迁到独立仓，取用需提前 10 分钟。</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- 12. 相关推荐 -->
+    <section class="section" id="rec">
+      <div class="sec-head">
+        <h2>相关推荐</h2>
+        <span class="sec-sub">按近期搜索词整理</span>
+      </div>
+      <div class="rec-tags">
+        <a href="/#works">蕾丝头纱半身怎么拍</a>
+        <a href="/#works">猫耳配件室内写真</a>
+        <a href="/#deep">暗紫棚布光参数</a>
+        <a href="/#guide">写真定金能退吗</a>
+        <a href="/#faq">双人写真精修几张</a>
+        <a href="/#works">复古棕调道具清单</a>
+        <a href="/#deep">硬光黑白毛孔处理</a>
+        <a href="/#latest">11 月棚拍档期</a>
+        <a href="/#guide">自然光棚阴天改期</a>
+        <a href="/#rec">蕾丝造型租借押金</a>
+      </div>
+    </section>
+
+    <!-- 13. 创作者证言 -->
+    <section class="section" id="voices">
+      <div class="sec-head">
+        <h2>造型与摄影手记</h2>
+        <span class="sec-sub">三条来自拍摄现场的记录</span>
+      </div>
+      <div class="quotes">
+        <blockquote class="quote">
+          <p>“头纱不是越长越好。2.4 米到腰，站着拍刚好；3 米以上要两个人托，反而乱。10 月那组我剪短了 20cm，边缘才落得下来。”</p>
+          <footer><b>造型师 阿岚</b> · 负责蕾丝头纱与颈饰</footer>
+        </blockquote>
+        <blockquote class="quote">
+          <p>“硬光棚我一般只用一盏灯，加蜂巢，光圈收到 F5.6。皮肤状态好的客人能出片，状态不好的我不劝，直接建议换柔光棚，省彼此时间。”</p>
+          <footer><b>摄影师 老麦</b> · 硬光黑白与复古棕调</footer>
+        </blockquote>
+        <blockquote class="quote">
+          <p>“猫耳的佩位比耳型重要。偏后 3cm 露出额头才像猫，贴头顶就像兔耳。这个细节我改了四次才定下来，客人不一定看得出来，但成片差别在。”</p>
+          <footer><b>妆造 小满</b> · 猫耳配件与妆面</footer>
+        </blockquote>
+      </div>
+    </section>
+
+    <!-- 14. 更新时间线 -->
+    <section class="section" id="timeline">
+      <div class="sec-head">
+        <h2>近期调整时间线</h2>
+        <span class="sec-sub">可对照页脚更新说明</span>
+      </div>
+      <ul class="timeline">
+        <li><time datetime="2026-11-07">11 月 7 日</time><b>放出 11 月 16—22 日 9 个棚拍时段</b>暗紫棚 4、柔光棚 3、复古棚 2。</li>
+        <li><time datetime="2026-11-06">11 月 6 日</time><b>双人加价由 150 元调至 180 元</b>已付定金按原价，新单按新价。</li>
+        <li><time datetime="2026-11-04">11 月 4 日</time><b>交片周期延长至 14 个工作日</b>11 月 3 日拍摄的客人排到 11 月 19 日。</li>
+        <li><time datetime="2026-11-02">11 月 2 日</time><b>复古棕调套系上架</b>首周完成 6 组，客片已归档。</li>
+        <li><time datetime="2026-10-30">10 月 30 日</time><b>自然光棚逆光时段缩至 10:00—14:00</b>14 点后改拍暗调室内。</li>
+      </ul>
+      <p class="notice-site">以上调整以公告条与最新更新列表为准，页面内价格自 2026 年 11 月 7 日起生效。</p>
+    </section>
+
+  </main>
+
+  <!-- 侧栏 -->
+  <aside class="side-col" aria-label="辅助导航与说明">
+    <div class="side-sticky">
+      <div class="side-card">
+        <h3>栏目导航</h3>
+        <ul class="side-nav" id="sideNav">
+          <li><a href="/#overview">主题写真概览</a></li>
+          <li><a href="/#works">精选客片</a></li>
+          <li><a href="/#latest">最新更新</a></li>
+          <li><a href="/#cats">拍摄分类</a></li>
+          <li><a href="/#deep">布光深度解析</a></li>
+          <li><a href="/#guide">拍摄体验指南</a></li>
+          <li><a href="/#plans">棚时费用对照</a></li>
+          <li><a href="/#rank">出片榜单</a></li>
+          <li><a href="/#faq">常见问题</a></li>
+          <li><a href="/#reviews">客片评论</a></li>
+          <li><a href="/#news">相关资讯</a></li>
+          <li><a href="/#rec">相关推荐</a></li>
+          <li><a href="/#voices">造型与摄影手记</a></li>
+          <li><a href="/#timeline">调整时间线</a></li>
+        </ul>
+      </div>
+      <div class="side-card">
+        <h3>本月数据</h3>
+        <p class="side-note"><strong>拍摄组数：</strong>10 月 8 日—11 月 7 日共 70 组<br>
+        <strong>剩余档期：</strong>11 月 16—22 日 9 个时段<br>
+        <strong>交片周期：</strong>当前 14 个工作日<br>
+        <strong>加修单价：</strong>90 元 / 张</p>
+      </div>
+      <div class="side-card">
+        <h3>热门标签</h3>
+        <div class="side-links">
+          <a href="/#works">蕾丝头纱</a>
+          <a href="/#works">猫耳配件</a>
+          <a href="/#deep">暗紫棚</a>
+          <a href="/#deep">硬光黑白</a>
+          <a href="/#works">复古棕调</a>
+          <a href="/#plans">棚时对照</a>
+          <a href="/#faq">定金规则</a>
+        </div>
+      </div>
+      <div class="side-card">
+        <h3>到店提示</h3>
+        <p class="side-note">试衣与妆造需预留 40 分钟以上。自带硬壳发饰请提前说明，现场可能建议调整角度。拍摄区不设等候座，陪同人员请在休息区等候。</p>
+      </div>
+    </div>
+  </aside>
+</div>
+
+<!-- 页尾 -->
+<footer class="site-foot" id="foot">
+  <div class="foot-in">
+    <div class="foot-top">
+      <div>
+        <div class="foot-brand">
+          <svg viewBox="0 0 48 48" aria-hidden="true" focusable="false">
+            <rect width="48" height="48" rx="11" fill="#4a3b56"/>
+            <path d="M12 16l6 5 6-5 6 5 6-5v14a6 6 0 0 1-6 6H18a6 6 0 0 1-6-6z" fill="none" stroke="#e3b7c9" stroke-width="2.4" stroke-linejoin="round"/>
+            <circle cx="20" cy="27" r="1.8" fill="#e3b7c9"/>
+            <circle cx="28" cy="27" r="1.8" fill="#e3b7c9"/>
+          </svg>
+          <span>蕾丝猫写真官网</span>
+        </div>
+        <p class="foot-pos">四个室内棚、六组标准造型，把蕾丝透光、猫耳轮廓与暗调肤色这几件事拆开讲清楚，方便你先算成本再定档。</p>
+      </div>
+      <nav class="foot-cols" aria-label="页尾栏目入口">
+        <div>
+          <h4>拍摄与造型</h4>
+          <ul>
+            <li><a href="/#works">新娘蕾丝头纱半身</a></li>
+            <li><a href="/#works">黑蕾丝猫耳坐姿</a></li>
+            <li><a href="/#works">复古棕调蕾丝手套</a></li>
+            <li><a href="/#cats">拍摄分类索引</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>规则与费用</h4>
+          <ul>
+            <li><a href="/#plans">棚时费用对照</a></li>
+            <li><a href="/#guide">定金与改期规则</a></li>
+            <li><a href="/#faq">加修与交付格式</a></li>
+            <li><a href="/#latest">11 月档期更新</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>阅读与参考</h4>
+          <ul>
+            <li><a href="/#deep">灯纱距与照度拆解</a></li>
+            <li><a href="/#rank">本月出片榜单</a></li>
+            <li><a href="/#voices">造型师手记</a></li>
+            <li><a href="/#timeline">调整时间线</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <div class="foot-bottom">
+      <span class="sample">页面内套系、价格、档期、评论与人物均为示例数据，用于说明拍摄流程与判断方法，不构成实际要约。拍摄参数取自 10 月 12 日至 11 月 7 日的现场记录。页脚更新时间 2026 年 11 月 8 日，对应正文「最新更新」与「调整时间线」两项。</span>
+      <span>© 2026 蕾丝猫写真官网 · 内容示例，仅供阅读</span>
+    </div>
+  </div>
+</footer>
+
+<button class="to-top" id="toTop" aria-label="回到顶部">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
+</button>
+
+<script src="data:text/javascript;base64,"></script>
+<script>
+(function(){
+  "use strict";
+
+  /* 移动端菜单 */
+  var menuBtn = document.getElementById('menuBtn');
+  var navMain = document.getElementById('navMain');
+  if (menuBtn && navMain) {
+    menuBtn.addEventListener('click', function(){
+      var open = navMain.classList.toggle('open');
+      menuBtn.setAttribute('aria-expanded', open ? 'true' : 'false');
+    });
+    navMain.addEventListener('click', function(e){
+      if (e.target && e.target.tagName === 'A') {
+        navMain.classList.remove('open');
+        menuBtn.setAttribute('aria-expanded', 'false');
+      }
+    });
+    document.addEventListener('keydown', function(e){
+      if (e.key === 'Escape' && navMain.classList.contains('open')) {
+        navMain.classList.remove('open');
+        menuBtn.setAttribute('aria-expanded', 'false');
+        menuBtn.focus();
+      }
+    });
+  }
+
+  /* 本地查找 */
+  var form = document.getElementById('searchForm');
+  var input = document.getElementById('searchInput');
+  var feedback = document.getElementById('searchFeedback');
+  var searchables = Array.prototype.slice.call(
+    document.querySelectorAll('.main-col .pcard, .main-col .ov-card, .main-col .cat-item, .main-col .news-item, .main-col .review, .main-col .faq details, .main-col .update-list li, .main-col .rank li, .main-col .compare > div, .main-col .steps li, .main-col .quote, .main-col .timeline li')
+  );
+
+  function clearHighlight(){
+    document.querySelectorAll('mark.hit').forEach(function(m){
+      var p = m.parentNode;
+      p.replaceChild(document.createTextNode(m.textContent), m);
+      p.normalize();
+    });
+  }
+
+  function doSearch(q){
+    clearHighlight();
+    var term = (q || '').trim();
+    if (!term) {
+      searchables.forEach(function(el){ el.classList.remove('hidden-by-search'); });
+      feedback.classList.remove('show');
+      feedback.textContent = '';
+      return;
+    }
+    var lower = term.toLowerCase();
+    var hits = 0;
+    searchables.forEach(function(el){
+      var text = el.textContent || '';
+      var match = text.toLowerCase().indexOf(lower) !== -1;
+      el.classList.toggle('hidden-by-search', !match);
+      if (match) {
+        hits++;
+        highlight(el, term);
+      }
+    });
+    feedback.classList.add('show');
+    if (hits === 0) {
+      feedback.textContent = '没有找到包含「' + term + '」的套系、分类或问答。可以试试「头纱」「猫耳」「双人」「档期」这类词。';
+    } else {
+      feedback.textContent = '找到 ' + hits + ' 处与「' + term + '」相关的内容，已在上方内容区标出。';
+    }
+  }
+
+  function highlight(root, term){
+    var walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT, {
+      acceptNode: function(node){
+        if (!node.nodeValue || node.nodeValue.toLowerCase().indexOf(term.toLowerCase()) === -1) {
+          return NodeFilter.FILTER_REJECT;
+        }
+        var tag = node.parentNode && node.parentNode.tagName;
+        if (tag === 'SCRIPT' || tag === 'STYLE' || tag === 'MARK') {
+          return NodeFilter.FILTER_REJECT;
+        }
+        return NodeFilter.FILTER_ACCEPT;
+      }
+    });
+    var nodes = [];
+    var n;
+    while ((n = walker.nextNode())) { nodes.push(n); }
+    nodes.forEach(function(node){
+      var text = node.nodeValue;
+      var lowerText = text.toLowerCase();
+      var lowerTerm = term.toLowerCase();
+      var frag = document.createDocumentFragment();
+      var idx = 0;
+      var pos = lowerText.indexOf(lowerTerm);
+      while (pos !== -1) {
+        if (pos > idx) { frag.appendChild(document.createTextNode(text.slice(idx, pos))); }
+        var mark = document.createElement('mark');
+        mark.className = 'hit';
+        mark.textContent = text.slice(pos, pos + term.length);
+        frag.appendChild(mark);
+        idx = pos + term.length;
+        pos = lowerText.indexOf(lowerTerm, idx);
+      }
+      if (idx < text.length) { frag.appendChild(document.createTextNode(text.slice(idx))); }
+      node.parentNode.replaceChild(frag, node);
+    });
+  }
+
+  if (form && input) {
+    form.addEventListener('submit', function(e){
+      e.preventDefault();
+      doSearch(input.value);
+    });
+    input.addEventListener('input', function(){
+      if (input.value.trim() === '') { doSearch(''); }
+    });
+  }
+
+  /* 平滑滚动：为吸顶元素留偏移 */
+  document.addEventListener('click', function(e){
+    var a = e.target.closest && e.target.closest('a[href^="/#"]');
+    if (!a) { return; }
+    var id = a.getAttribute('href').slice(2);
+    if (!id) { return; }
+    var target = document.getElementById(id);
+    if (!target) { return; }
+    e.preventDefault();
+    var head = document.getElementById('siteHead');
+    var ann = document.getElementById('announce');
+    var offset = (head ? head.offsetHeight : 0) + (ann ? ann.offsetHeight : 0) + 12;
+    var top = target.getBoundingClientRect().top + window.pageYOffset - offset;
+    var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    window.scrollTo({ top: top, behavior: reduce ? 'auto' : 'smooth' });
+    if (history.replaceState) { history.replaceState(null, '', '/#' + id); }
+  });
+
+  /* 回到顶部 */
+  var toTop = document.getElementById('toTop');
+  function onScroll(){
+    if (!toTop) { return; }
+    if (window.pageYOffset > 520) { toTop.classList.add('show'); }
+    else { toTop.classList.remove('show'); }
+  }
+  window.addEventListener('scroll', onScroll, { passive: true });
+  onScroll();
+  if (toTop) {
+    toTop.addEventListener('click', function(){
+      var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+      window.scrollTo({ top: 0, behavior: reduce ? 'auto' : 'smooth' });
+    });
+  }
+
+  /* 侧栏滚动高亮 */
+  var sideLinks = Array.prototype.slice.call(document.querySelectorAll('#sideNav a'));
+  var sections = sideLinks.map(function(a){
+    return document.getElementById(a.getAttribute('href').slice(2));
+  }).filter(Boolean);
+
+  function setActive(id){
+    sideLinks.forEach(function(a){
+      var on = a.getAttribute('href') === '/#' + id;
+      a.classList.toggle('active', on);
+      if (on) { a.setAttribute('aria-current', 'true'); }
+      else { a.removeAttribute('aria-current'); }
+    });
+  }
+
+  if ('IntersectionObserver' in window && sections.length) {
+    var visible = {};
+    var io = new IntersectionObserver(function(entries){
+      entries.forEach(function(en){
+        visible[en.target.id] = en.isIntersecting ? en.intersectionRatio : 0;
+      });
+      var bestId = null, bestVal = 0;
+      Object.keys(visible).forEach(function(k){
+        if (visible[k] > bestVal) { bestVal = visible[k]; bestId = k; }
+      });
+      if (bestId) { setActive(bestId); }
+    }, { rootMargin: '-120px 0px -55% 0px', threshold: [0, .15, .4, .75] });
+    sections.forEach(function(s){ io.observe(s); });
+  }
+})();
+</script>
+
+<script>
+window.addEventListener('load', function(){
+  var el = document.createElement('script');
+  el.type = 'application/ld+json';
+  el.textContent = JSON.stringify({
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "name": "蕾丝猫写真官网",
+        "inLanguage": "zh-CN",
+        "description": "主题写真拍摄与作品选片，含棚时费用、布光拆解与常见问题。",
+        "keywords": "蕾丝猫写真官网"
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "蕾丝头纱造型适合什么脸型？",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "头纱遮住耳侧与发际线，脸宽 14cm 以内的脸型最稳；脸型偏圆时把头纱向后推 8cm，露出下颌线。方脸反而适合头纱贴住两侧，形成垂直引导线。"
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "猫耳配件会不会显得刻意、太二次元？",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "猫耳配件是布面软耳，耳高 9cm，比硬壳款低 3cm，佩在头顶偏后位置，正面看只露出轮廓。若仍觉得刻意，可换成蕾丝颈饰加发带。"
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "自然光棚阴天能拍吗？",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "自然光棚的逆光效果依赖太阳角度，阴天窗面照度低于 400 lx，窗帘纹路不显，成片偏灰。可改期不额外收费，或转暗紫棚用主灯替代日光。"
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "精修 12 张够不够？加修怎么算？",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "单人套系 12 张通常够用；双人套系按人分摊每人 6 张，容易不够。加修单价 90 元，150 分钟套系 80 元，交付后不再接受补加。"
+            }
+          }
+        ]
+      }
+    ]
+  });
+  document.head.appendChild(el);
+});
+</script>
+</body>
+        </html>
